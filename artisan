@@ -1,0 +1,53 @@
+exit($status);
+
+$kernel->terminate($input, $status);
+
+*/
+|
+| down the process. This is the last thing to happen to the request.
+| so that any final work may be done by the application before we shut
+| Once Artisan has finished running, we will fire off the shutdown events
+|
+|--------------------------------------------------------------------------
+| Shutdown The Application
+|--------------------------------------------------------------------------
+/*
+
+);
+    new Symfony\Component\Console\Output\ConsoleOutput
+    $input = new Symfony\Component\Console\Input\ArgvInput,
+$status = $kernel->handle(
+
+$kernel = $app->make(Illuminate\Contracts\Console\Kernel::class);
+
+*/
+|
+| or another output device for the developers. Here goes nothing!
+| executed in this console and the response sent back to a terminal
+| When we run the console application, the current CLI command will be
+|
+|--------------------------------------------------------------------------
+| Run The Artisan Application
+|--------------------------------------------------------------------------
+/*
+
+$app = require_once __DIR__.'/bootstrap/app.php';
+
+require __DIR__.'/vendor/autoload.php';
+
+*/
+|
+| loading of any our classes "manually". Feels great to relax.
+| into the script here so that we do not have to worry about the
+| for our application. We just need to utilize it! We'll require it
+| Composer provides a convenient, automatically generated class loader
+|
+|--------------------------------------------------------------------------
+| Register The Auto Loader
+|--------------------------------------------------------------------------
+/*
+
+define('LARAVEL_START', microtime(true));
+
+<?php
+#!/usr/bin/env php
